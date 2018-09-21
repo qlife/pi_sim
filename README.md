@@ -15,6 +15,8 @@ This is how we estimate the value of pi with Monte Carlo algorithm.
 
 ## Result
 
+I'm do it at a MBP 13" 2017 model. Processor is Intel Core i5, 2.3 GHz.
+
 | Envorinment  | Number of Random Points | Times of Simulation  | Time in seconds |
 |---|---|---|---|
 |Python 3 plain math  | 1000000  | 10  | 3.606 |

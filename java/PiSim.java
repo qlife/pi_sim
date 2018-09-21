@@ -22,11 +22,9 @@ public class PiSim {
 
     public static void main(String [] args) {
         long milliStart = System.currentTimeMillis();
-        double xx = 0.0;
         for(int j = 0; j < simPass; ++j) {
-            xx += doSim();
+            doSim();
         }
-        xx = xx + 0.1;
         long milliEnd = System.currentTimeMillis();
         System.out.print("Time Consume: ");
         System.out.println(milliEnd - milliStart);
